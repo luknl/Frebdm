@@ -116,7 +116,7 @@ menu {
       border-top: 2px solid $green;
    }
    .team {
-      margin: 0 0 100px 30px;
+      margin: 0 15px 100px 15px;
       width: $width1;
       display: inline-block;
       img {
@@ -388,6 +388,29 @@ footer {
       }
       .more {
          margin: 50px auto auto;
+      }
+   }
+   .container2 {
+      .team {
+         width: 90%;
+         .face {
+            width: 80%;
+         }
+         .description {
+            width: 80%;
+            margin: auto;
+            padding: 10px 0;
+         }
+         .p-description {
+            width: 80%;
+            text-align: center;
+            margin: auto;
+         }
+         .social {
+            float: none;
+            width: 60%;
+            margin: auto auto 30px;
+         }
       }
    }
 }
