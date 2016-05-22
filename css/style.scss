@@ -116,7 +116,7 @@ menu {
       border-top: 2px solid $green;
    }
    .team {
-      margin: 0 15px 100px 15px;
+      margin: 0 15px 60px 15px;
       width: $width1;
       display: inline-block;
       img {
@@ -362,32 +362,19 @@ footer {
 @media only screen and (max-width:830px) {
    menu {
       .right_icons {
-         padding: 20px 0 0 50px;
+         padding: 20px 25px 0 25px;
       }
    }
 }
 
 @media only screen and (max-width:530px) {
-   .content {
-      .feature {
-         width: auto;
-         margin: auto;
-         img {
-            width: 80%;
-            margin-left: 10%;
-         }
+   .container1{
+      h2{
+         margin:0 15px;
+         font-size:30px;
       }
-      .feature_margin {
-         margin-right: 40px;
-      }
-      h3 {
-         text-align: center;
-      }
-      p {
-         text-align: center;
-      }
-      .more {
-         margin: 50px auto auto;
+      p{
+         font-size:14px;
       }
    }
    .container2 {
@@ -409,8 +396,32 @@ footer {
          .social {
             float: none;
             width: 60%;
-            margin: auto auto 30px;
          }
+      }
+   }
+   .content {
+      .feature {
+         width: auto;
+         height: 300px;
+         margin-bottom: 50px;
+         img {
+            width: 80%;
+            margin-left: 10%;
+         }
+      }
+      .feature_margin {
+         margin-top:-30px;
+         margin-right: 40px;
+         margin-bottom: -40px;
+      }
+      h3 {
+         text-align: center;
+      }
+      p {
+         text-align: center;
+      }
+      .more {
+         margin: 50px auto auto;
       }
    }
 }
